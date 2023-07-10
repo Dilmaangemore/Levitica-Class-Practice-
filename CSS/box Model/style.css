@@ -1,0 +1,28 @@
+
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(102, 102, 95);
+}
+
+.redbox{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: red;
+}
+.bluebox{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+.greybox{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: cadetblue;
+}

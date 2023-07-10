@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p>The object can be created in two ways in JavaScript:</p>
+    <h1>Object Literal</h1>
+    <h1>Object Constructor</h1>
+   
+    <script>
+        //using Object Literals
+         let student={
+        name:'john',
+        age:25,
+        gender: 'male',
+        address: 
+            "25-street- Nivarvaan-coloney-Delhi",
+        eduction: "Btech",
+        skills: "c++, Java",
+
+        //object inswide Object
+
+        phone:
+        {
+           mobile: 152356, 
+           landline: 145656,
+        },
+
+        // interest:{'music', 'play'},
+
+        getFunction: function () {
+        return `The name of the person is
+          ${student.name} & age is  ${student.age}`
+    },
+
+
+
+    };
+    console.log(student)
+    console.log(student.getFunction());
+    console.log(student.phone.landline);
+
+    </script>
+</body>
+</html>
