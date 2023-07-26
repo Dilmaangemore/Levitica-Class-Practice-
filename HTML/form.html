@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: aliceblue;
+        }
+
+        .header{
+            display: flex;
+           
+            justify-content: space-around;
+
+        }
+
+       .imge{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+
+       }
+
+       .app_no{
+        margin-top: 10px;
+       }
+
+       .num_box{
+        padding: 5px;
+        
+        width: 180px;
+        text-align: center;
+        margin-top: 1px;
+        border: 0.5px solid lightblue;
+
+       }
+       hr{
+        border: 2px solid black;
+        margin-left: 30px;
+        margin-right: 30px;
+       }
+
+       .container{
+        margin-left: 30px;
+        margin-right: 30px;
+       }
+
+       .text{
+        font-size: 18px;
+        font-family: 500;
+
+       }
+
+       .utility{
+        display: flex;
+
+       }
+
+       .address_box{
+        width: 300px;
+        height: 50px;
+        border: 0.5px solid lightblue;
+       }
+
+       .course{
+        margin-top: 5px;
+       }
+
+       .name_box{
+        display: flex;
+        justify-content: space-around;
+       }
+
+       .signature{
+        margin: 10px;
+        justify-content: right;
+        text-align: right;
+       
+       }
+       .sig{
+        border: 1px dashed lightblue;
+        border-top: none;
+        border-left: none;
+        border-radius: right;
+        width: 250px;
+       }
+       .signature_cap{
+        align-items: center;
+
+       }
+
+       .parmanent_add{
+        display: flex;
+        flex-direction: column;
+
+       }
+       
+    </style>
+</head>
+<body>
+   
+       
+    <div class="header">
+
+        <div class="app_no">
+            <label class=".text">Application NO: <br><br>
+                <input type="text" class="num_box"> </label> 
+        </div>
+        
+        
+        <!-- <a href="">https://leviticatechnologies.com/</a> -->
+        <div class="cneter_head"><h2>Registration Form</h2>
+            <p>leviticatechnologies</p></div>
+
+       <div class="imge"></div>
+
+
+
+    </div>
+
+    <hr>
+
+    <div class="container name_box">
+        <label for="" class="container text">First Name: </label><input type="text" class="num_box ">
+    <label for="" class="container text">Last Name: </label><input type="text" class="num_box">
+    </div>
+    <br><br>
+    <div class="conatiner name_box">
+        <label for="" class="container text">Primary Conatct: </label><input type="text" class="num_box">
+    <label for="" class=" container text">Secondary: </label><input type="text" class="num_box">
+    </div>
+    <br><br>
+
+    <div class="container">
+        <label for="" class="container text">Email: </label><input type="text" class="num_box">
+    </div>
+  
+    <!-- <label for="" class=".text">Last Name: </label><input type="text" class="num_box"> -->
+    <br>
+    <div class="parmanent_add">
+        <label for="" class=".text container">Parmanenet Address</label><br><textarea class="container address_box" name="address" id="parmanenet_add" cols="50" rows="5"></textarea>
+    </div>
+   
+    <div class="current-add">
+
+        <label for="" class=".text container">Current Address</label><br><textarea class="container address_box" name="address" id="parmanenet_add" cols="50" rows="5"></textarea>
+    </div>
+    
+
+<form action="" class="container">
+    <h4 for="Education">Education Detail: </h4>
+<input type="checkbox"><label for="">B.Tech</label>
+<input type="checkbox"><label for="">Degree</label>
+<input type="checkbox"><label for="">MBA</label>
+<input type="text" class="num_box"><span>(others)</span>
+</form>
+<br><br>
+
+<div class="conatiner Passing">
+    
+<label for="" class="container text">Passing Year <input type="number" class="num_box"></label><span>%</span><input type="number" class="num_box">
+
+
+</div>
+
+<div class="conatiner Course">
+    <label for="" class="container text">Name of Course</label><input type="text" class="sig">
+</div>
+
+
+
+<br><br>
+
+<span class="container text">Date: </span>
+<br>
+
+<div class="signature">
+    <input type="text" class="container sig">
+
+<p class="container signature_cap">(signature)</p>
+</div>
+
+
+    
+
+  
+        
+
+
+
+</body>
+</html>
